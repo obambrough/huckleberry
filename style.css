@@ -7,6 +7,7 @@ html,
 body {
   margin: 0;
   padding: 0;
+  background-color: hsl(0deg, 0%, 60%);
 }
 
 /* Add styles here! */
@@ -31,8 +32,9 @@ strong {
 }
 
 header {
-  margin-block-start: 96px;
-  margin-block-end: 48px;
+  background-color: hsl(0deg, 0%, 100%);
+  padding-block-start: 96px;
+  padding-block-end: 48px;
 }
 
 .max-width-wrapper {
@@ -45,6 +47,7 @@ header {
   padding-inline-start: 24px;
   padding-inline-end: 24px;
   max-width: 70%;
+  min-width: 17rem;
 }
 
 .intro-chunk p {
@@ -52,14 +55,13 @@ header {
 }
 
 main {
-  background-color: hsl(0deg, 0%, 60%);
   padding-block-start: 64px;
   padding-block-end: 64px;
-  border-block-start: 8px solid hsl(0deg, 0%, 30%);
+  border-block-start: 8px solid hsl(0deg, 0%, 40%);
 }
 
 .card {
   background-color: hsl(0deg, 0%, 100%);
   padding: 8px 24px;
-  border-block-end: 8px solid hsl(0deg, 0%, 30%);
+  border-block-end: 8px solid hsl(0deg, 0%, 40%);
 }
